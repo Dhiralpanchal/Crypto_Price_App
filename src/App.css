@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  background-color: rgba(8, 26, 88, 0.849);
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+*{
+  box-sizing: border-box;
+ 
+
+}
+
+.cryptoDisplay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.cryptoHeader {
+  background-color: rgb(191, 205, 218);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0px;
+  border-style: double;
+  border-radius: 2px;
+}
+.cryptoHeader input{
+  font-size: 20px;
+  width: 50%;
+  height: 10 px;
+  color: black;
+  background-color:white;
+  
+}
+
+.coin{
+  width: 400px;
+  height: 300px;
+  background-color: rgb(191, 205, 218);
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.coin img{
+  height: 50%;
+  background-color:rgb(191, 205, 218);
+}
+.coin h1{
+  background-color:rgb(191, 205, 218);
+}
+.coin h3{
+  background-color:rgb(191, 205, 218);
+}
